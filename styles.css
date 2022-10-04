@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+.listaPadre{
+    float: left;
+    list-style-type: none;
+    padding: 0;
+    position: relative;
+    left: 50%;
+    font-family: 'Oswald', sans-serif;
+}
+ .listaHija{
+    float: left;
+    position: relative;
+    right: 50%;
+    padding: 10px 30px;
+    background-color: #2F4F4F;
+    color: white;
+ }
+
+ .listaHija:hover{
+    cursor: pointer;
+    background-color: #20B2AA;
+ }
+ .subLista{
+    padding: 10px 0px;
+    display: none;
+ }
+ .listaHija:hover .subLista{
+    display: block;
+ }
